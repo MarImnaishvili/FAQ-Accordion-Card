@@ -17,6 +17,9 @@ h3 {
   font-weight: 400;
   color: hsl(240, 6%, 50%);
 }
+h3:hover {
+  color: hsl(14, 88%, 65%) !important;
+}
 p {
   margin-top: 0;
   font-size: 1.2rem;
