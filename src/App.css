@@ -30,12 +30,13 @@ h1 {
   font-size: 3.2rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 1440px) {
   .mainContainer {
     display: flex;
-    width: 92rem;
+    width: 90rem;
     justify-content: space-between;
     padding-right: 7rem;
+    padding-bottom: 5rem;
   }
   .logoo {
     width: 50%;
@@ -51,7 +52,7 @@ h1 {
     transform: translate(-50%, -50%);
   }
   .questionSection {
-    width: 40%;
+    width: 50%;
   }
   h1 {
     padding: 2rem 0 1rem;
