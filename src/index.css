@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap");
+
+:root {
+  font-family: Kumbh Sans, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background: linear-gradient(
+    180deg,
+    rgba(175, 103, 233, 1) 0%,
+    rgba(101, 101, 231, 1) 100%
+  );
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* min-width: 375px; */
+  min-height: 100vh;
+  padding: 15rem 0;
+}
+
+html {
+  font-size: 62.5%;
+}

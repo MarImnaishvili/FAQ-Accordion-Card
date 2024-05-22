@@ -1,0 +1,59 @@
+.mainContainer {
+  width: 32rem;
+  max-width: 100%;
+  padding: 2rem 2rem 4rem;
+  border-radius: 2rem;
+  background-color: #ffffff;
+  position: relative;
+  text-align: center;
+}
+
+.logoo {
+  width: 70%;
+  position: absolute;
+  top: 0;
+  right: 50%;
+  transform: translate(50%, -58%);
+}
+
+.desktop {
+  width: 70%;
+  position: absolute;
+  top: 0;
+  right: 50%;
+  transform: translate(50%, -55%);
+}
+h1 {
+  padding: 10rem 0 1rem;
+  font-weight: 700;
+  color: hsl(238, 29%, 16%);
+  font-size: 3.2rem;
+}
+
+@media only screen and (min-width: 600px) {
+  .mainContainer {
+    display: flex;
+    width: 92rem;
+    justify-content: space-between;
+    padding-right: 7rem;
+  }
+  .logoo {
+    width: 50%;
+    top: 50%;
+    left: 17%;
+    transform: translate(-50%, -50%);
+  }
+
+  .desktop {
+    width: 50%;
+    top: 60%;
+    left: 17%;
+    transform: translate(-50%, -50%);
+  }
+  .questionSection {
+    width: 40%;
+  }
+  h1 {
+    padding: 2rem 0 1rem;
+  }
+}
