@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import logoo from "/images/illustration-woman-online-mobile.svg";
 import desktop from "/images/bg-pattern-desktop.svg";
-import { faqDate } from "./date";
+import { faqData } from "./data";
 import Questions from "./components/Questions";
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
         <div className="questionSection">
           <h1>FAQ</h1>
           <div>
-            {faqDate.map((quest, index) => (
+            {faqData.map((quest, index) => (
               <Questions
                 question={quest.question}
                 answer={quest.answer}

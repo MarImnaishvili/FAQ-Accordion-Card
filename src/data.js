@@ -1,4 +1,4 @@
-export const faqDate = [
+export const faqData = [
   {
     question: "How many team members can I invite?",
     answer:
